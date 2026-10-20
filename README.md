@@ -20,6 +20,11 @@ npx skills add qwertymuzaffar/skills --skill udacity-commit -g -a claude-code
 | skill | what it does |
 | --- | --- |
 | [udacity-commit](skills/udacity-commit) | Commit messages and branch names in the [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/) format, with a branch-first workflow. Pairs with the [mcp-udacity-commit](https://github.com/qwertymuzaffar/mcp-udacity-commit) MCP server for deterministic validation. |
+| [software-design](skills/software-design) | Refactor, review, and structure code with SOLID, the OOP pillars, DRY/KISS/YAGNI, the 23 GoF patterns, and a smell-to-refactoring catalog, biased toward the smallest change that removes a concrete pain. Pairs with the [mcp-software-design](https://github.com/qwertymuzaffar/mcp-software-design) MCP server for smell heuristics and pattern scaffolding. |
+
+Each skill works on its own. When its companion MCP server is connected, the
+skill uses the server's tools for the parts that can be checked
+deterministically and keeps the judgment calls in the skill text.
 
 ## Layout
 
